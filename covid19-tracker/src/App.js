@@ -25,6 +25,10 @@ function App() {
   const [casesType, setCasesType] = useState("cases");
 
   useEffect(() => {
+    document.title = "Covid 19 Live Tracker"
+ }, []);
+
+  useEffect(() => {
     fetch("https://disease.sh/v3/covid-19/all")
       .then(response => response.json())
       .then(data => {
@@ -66,7 +70,6 @@ function App() {
         setCountryInfo(data);
         setMapCenter([data.countryInfo.lat, data.countryInfo.long]);
         setMapZoom(4);
-        console.log("Map Center >>", mapCenter);
       })
   }
 
@@ -75,7 +78,7 @@ function App() {
       <div className="app__left">
         <div className="app__header">
 
-          <h1>Covid 19 Tracker</h1>
+          <h1>Covid 19 Live Tracker</h1>
           <FormControl className="app__dropdown">
             <Select
               variant="outlined"
