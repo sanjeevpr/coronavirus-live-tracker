@@ -3,16 +3,23 @@ The live COVID-19 Live Tracker tracks the active cases, recoveries and deaths wo
 
 The project has been created by following the tutorial of the [Clever Programmer]. They are great and please checkout their channel. Also, checkout my [blog].
 
+
+## Demo
+![alt text](https://github.com/sanjeevpr/coronavirus-live-tracker/blob/master/images/GIF.gif?raw=true)
+
+
 ## Features
 - Graphs
 - Maps
 - Live cases, recoveries and deaths
+
 
 ## Tech
 Dillinger uses a number of open source projects to work properly:
 
 - ReactJS
 - Firebase to deploy the app
+
 
 ## Installation
 
@@ -31,6 +38,7 @@ For production build...
 ```sh
 npm run build
 ```
+
 
 ## License
 
