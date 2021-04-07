@@ -22,6 +22,8 @@ https://covid-19-tracker-8f9b7.firebaseapp.com/
 Dillinger uses a number of open source projects to work properly:
 
 - ReactJS
+   - ChartJs
+   - React-Leaflet
 - Firebase to deploy the app
 
 
