@@ -5,6 +5,10 @@ The project has been created by following the tutorial of the [Clever Programmer
 
 
 ## Demo
+
+https://covid-19-tracker-8f9b7.firebaseapp.com/
+
+
 ![alt text](https://github.com/sanjeevpr/coronavirus-live-tracker/blob/master/images/GIF.gif?raw=true)
 
 
